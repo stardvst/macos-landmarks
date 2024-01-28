@@ -12,6 +12,7 @@ struct ContentView: View {
                     .font(.subheadline)
                 Spacer()
                 Text("California")
+                    .font(.headline)
             }
         }
         .padding()
