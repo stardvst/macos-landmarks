@@ -5,7 +5,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Turtle Rock") 
+            Text("Turtle Rock")
                 .font(.title)
             HStack {
                 Text("Joshua Tree National Park")
