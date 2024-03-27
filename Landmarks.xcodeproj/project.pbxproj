@@ -17,6 +17,7 @@
 		22A661EF2B5EEBFD006AA420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A661EE2B5EEBFD006AA420 /* Assets.xcassets */; };
 		22A661F22B5EEBFD006AA420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A661F12B5EEBFD006AA420 /* Preview Assets.xcassets */; };
 		22A661FA2B5EEC17006AA420 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22A661F92B5EEC17006AA420 /* .gitignore */; };
+		22A7FA102BB4849800128FC3 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7FA0F2BB4849800128FC3 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		22A661F12B5EEBFD006AA420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22A661F32B5EEBFD006AA420 /* Landmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Landmarks.entitlements; sourceTree = "<group>"; };
 		22A661F92B5EEC17006AA420 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		22A7FA0F2BB4849800128FC3 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				22A661EC2B5EEBFD006AA420 /* ContentView.swift */,
+				22A7FA0F2BB4849800128FC3 /* LandmarkRow.swift */,
 				22558EA72BA9FB65000A1262 /* MapView.swift */,
 				224FD59C2B7D43390031AC10 /* CircleImage.swift */,
 			);
@@ -190,6 +193,7 @@
 				227CE1912BAEE6860024B074 /* ModelData.swift in Sources */,
 				22A661EB2B5EEBFD006AA420 /* LandmarksApp.swift in Sources */,
 				224FD59D2B7D43390031AC10 /* CircleImage.swift in Sources */,
+				22A7FA102BB4849800128FC3 /* LandmarkRow.swift in Sources */,
 				227CE1932BAEE7CF0024B074 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
