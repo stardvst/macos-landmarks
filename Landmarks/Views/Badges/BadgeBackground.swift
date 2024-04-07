@@ -7,19 +7,17 @@ struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in
             Path { path in
-                var width: CGFloat = 100.0
+                var width: CGFloat = min(geometry.size.width, geometry.size.height)
                 let height = width
                 let xScale: CGFloat = 0.832
                 let xOffset = (width * (1.0 - xScale)) / 2.0
                 width *= xScale
-
                 path.move(
                     to: CGPoint(
                         x: width * 0.95 + xOffset,
                         y: height * (0.20 + HexagonParameters.adjustment)
                     )
                 )
-                
                 HexagonParameters.segments.forEach { segment in
                     path.addLine(
                         to: CGPoint(
