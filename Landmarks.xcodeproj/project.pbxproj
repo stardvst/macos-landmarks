@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222F76E32BC9B17F00D084C3 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F76E22BC9B17F00D084C3 /* CategoryHome.swift */; };
 		224FD59D2B7D43390031AC10 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224FD59C2B7D43390031AC10 /* CircleImage.swift */; };
 		225356512BC15D8D00E9E7AE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225356502BC15D8D00E9E7AE /* BadgeBackground.swift */; };
 		225356532BC164DB00E9E7AE /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225356522BC164DB00E9E7AE /* BadgeSymbol.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222F76E22BC9B17F00D084C3 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		224FD59C2B7D43390031AC10 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		225356502BC15D8D00E9E7AE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		225356522BC164DB00E9E7AE /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BadgeSymbol.swift; path = Landmarks/Views/Badges/BadgeSymbol.swift; sourceTree = SOURCE_ROOT; };
@@ -76,9 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222F76E12BC9B14600D084C3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				222F76E22BC9B17F00D084C3 /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		227CE1962BAEE8700024B074 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				222F76E12BC9B14600D084C3 /* Categories */,
 				228ABD562BC2C139005AA006 /* Hikes */,
 				228ABD4D2BC2A875005AA006 /* Badges */,
 				22D947752BC076D100D30EA8 /* Landmarks */,
@@ -264,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A661ED2B5EEBFD006AA420 /* ContentView.swift in Sources */,
+				222F76E32BC9B17F00D084C3 /* CategoryHome.swift in Sources */,
 				228ABD4C2BC2A5F6005AA006 /* Badge.swift in Sources */,
 				22558EA82BA9FB65000A1262 /* MapView.swift in Sources */,
 				228ABD572BC2C139005AA006 /* GraphCapsule.swift in Sources */,
