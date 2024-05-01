@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2229198E2BE25B6500628FBA /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229198D2BE25B6500628FBA /* PageControl.swift */; };
 		222F76E32BC9B17F00D084C3 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F76E22BC9B17F00D084C3 /* CategoryHome.swift */; };
 		222F76E52BC9B55100D084C3 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F76E42BC9B55100D084C3 /* CategoryRow.swift */; };
 		223E760C2BCC0B4200061A39 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E760B2BCC0B4200061A39 /* Profile.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2229198D2BE25B6500628FBA /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		222F76E22BC9B17F00D084C3 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		222F76E42BC9B55100D084C3 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		223E760B2BCC0B4200061A39 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			children = (
 				2291457A2BDD0AEA004F0D21 /* PageViewController.swift */,
 				2291457E2BDD0E12004F0D21 /* PageView.swift */,
+				2229198D2BE25B6500628FBA /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				228ABD572BC2C139005AA006 /* GraphCapsule.swift in Sources */,
 				228ABD592BC2C139005AA006 /* HikeGraph.swift in Sources */,
 				227CE1912BAEE6860024B074 /* ModelData.swift in Sources */,
+				2229198E2BE25B6500628FBA /* PageControl.swift in Sources */,
 				22D947732BC0743C00D30EA8 /* FavoriteButton.swift in Sources */,
 				2244417D2BCAA023002C30B9 /* CategoryItem.swift in Sources */,
 				22D947772BC07A8200D30EA8 /* HexagonParameters.swift in Sources */,
